@@ -233,6 +233,8 @@ Nombres de requêtes ? 1 on recupere les IDs (IDs des speakers des talks), puis 
 
 Chez Appolo => Algo de composition Rover (command) ou Studio (interface)
 
+**ATTENTION, LA SECURITE EST TRES DIFFICILE A METTRE EN PLACE ! On peut se retrouver à consommer des props sur lesquels on a pas les droits !!**
+
 ### Notes hors conf
 
 Exemple de consommation côté client : 

@@ -4,9 +4,11 @@ Producer > Topic > partition > offset
 
 ## basics
 
-Kafka est stateful.
+Kafka est stateful.  
+le producer c'est difficile `<->` comme ça, le consumer c'est difficile `<----->` comme ça.
 On écrit et reçoit des records (topic, clé => valeur).  
-Les records sont écris sur les partitions, à un offset (où dans la partition).
+Les records sont écris sur les partitions, à un offset (où dans la partition).  
+Chaque topic a une retention. Du coup le earlier offset commence peut etre pas à 0.
 
 Création : 
 
@@ -73,3 +75,35 @@ Kafka est résilient et on peut configurer le nombre de sauvegarde que l'on veut
  - Replication factor d'au moins 3.
  - sync replica to replica factor - 1.
  - podDisruptionBudget 0 car on doit killer nous meme les PODS, car Kafka est **STATEFUL**.
+
+L'écrire (le commmit) est couteux. La question que l'on se pose c'est quand est-ce qu'on commit ?  
+A ce moment là on écrira dans _consumer_offsets où on en est. D'ailleurs on peut perdre le fil si jamais on nous kill le pod car on reviendra à cet offset.
+
+## Consumption
+
+En fait poll ne poll pas, `elle s'appelle fetch en interne`. Le poll fait enormement d'actions.  
+Le polling thread est très important dans le kafka consumer : 
+ - **All operations must be perform on that thread**
+ - poll **blocks**
+ - **You must call poll frequently**
+ - **Règle 1 : do not block while processing the records**
+ - **Règle 2 : process the record synchronously** (Non bloquant et synchro ?)
+   - Donc on doit disable auto-commit
+   - Mais **DO NOT COMMIT AFTER EVERY RECORDS**
+
+## Comment je sais que mon kafka marche ?
+
+Un kafka qui marche => mes producers peuvent écrire et poller sans soucis.  
+Waiting for update `714` pour avoir ses metrics.
+
+Sinon utilisation d'un canary => 
+ - il produce/consume, une partition par broker
+ - il va ensuite envoyer ces infos dans le système de metric
+
+## Les offsets
+
+On a 3 manières de commit : auto-commint, commit sync, commit async.  
+Application > _Write a record_ > partition (créer le offset __consumer_offets) > replication * 2  
+
+**ATTENTION AU LATEST ! IL EST PAR DEFAULT ! UTILISEZ PLUTOT LE EARLIEST !**
+`auto.offset.reset=earliest`
