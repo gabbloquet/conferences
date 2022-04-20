@@ -6,9 +6,9 @@
 
 [Notes](./graphql.md)
 
-## Architecturoplastie hexagonale d’un backend Node.js : Opération à code ouvert
+## Kafka: carte des pièges à l’usage des développeurs et des ops
 
-[Notes](./archi_hexa_node.md)
+[Notes](./kafka.md)
 
 ## Du Chaos Engineering avec Litmus et Jenkins
 
