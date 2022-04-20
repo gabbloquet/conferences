@@ -100,10 +100,83 @@ Sinon utilisation d'un canary =>
  - il produce/consume, une partition par broker
  - il va ensuite envoyer ces infos dans le système de metric
 
+En faite le canary se comporte comme une vraie app.
+
 ## Les offsets
 
 On a 3 manières de commit : auto-commint, commit sync, commit async.  
 Application > _Write a record_ > partition (créer le offset __consumer_offets) > replication * 2  
 
-**ATTENTION AU LATEST ! IL EST PAR DEFAULT ! UTILISEZ PLUTOT LE EARLIEST !**
+**ATTENTION AU LATEST ! IL EST PAR DEFAULT ! UTILISEZ PLUTÔT LE EARLIEST !**
 `auto.offset.reset=earliest`
+
+## Event driven Microservices
+
+Commit periodically => Throttled strategy (by default)
+
+### Failure management ?
+
+Ack strategy : 
+ - fail fast => on a une erreur on arrete tout (default)
+ - ignore => logué mais rien de spé
+ - DLQ, write the record in a DLQ topic en attente
+   - Par contre il faudra penser à rejouer ces records que l'on a mis en stand by
+ - @Retry, pas retry du producer, à faire que si on est sur que ça va fonctionner et pas péter ma prod
+
+## Alerts
+
+Metrics les plus utiles ?
+
+ - Prometheus
+ - Grafana pour le dashboard
+
+Pod up ? check les logs ? prometheus status ? check selector in prometheus ? check errors
+
+Attention aux problèmes de disk plein, c'est ça le pire sur kafka, vraiment mauvais pour les brokers.
+
+### SLO rates
+
+Burn rate  
+Google recommande : si on a cramé 2% en 1h / 5H en 10h ... On réveille quelqu'un pour qu'il se penche sur le probleme.
+
+Budget on fire  
+On check le dashboard, les logs du broker, roll update pods via strimzi, check canary...
+
+### Rebalance
+
+ - producer side
+   - concurrent write to multiple partitions
+ - consumer side
+   - ..
+   - ..
+
+Le rebalance permet d'orchestrer le rebalance protocol lorsqu'un consumer arrive ou part.  
+On redispatch nos partitions parmis les consumers restant. (a set of resources among the members).
+
+findCoordinator (gets the broker coordinating the group) => joinGroup (init the rebalance protocol, lui passe les conf interval et timeout ainsi que la partition à consommer).  
+
+C'est le consumer leader discute avec le coordinateur, il ordonne ensuite les rebalance, toi consumer 2 tu restes sur la partition 2, toi le 3 tu passes sur le 4 etc... (assignments).
+
+Each consumer sends periodically un hearthbreak pour dire qu'il est encore là.
+
+ - Problème 1 : **Freeze the world** quand un gars part, ça bloque TOUS les consommateurs. Rebalance etc. (si on est sur K8s, 2 instances fois 3 consumers, 6 rebalance).
+ - Problème 2 : Heartbeat missed, si on rame un peu et qu'on rate le ping pour dire qu'on est up, ah bah trop tard, on est balancé.
+
+## Authent
+
+SASL Auth with OAUTHBEARER : https://docs.confluent.io/platform/current/kafka/authentication_sasl/authentication_sasl_oauth.html
+
+Conf:  
+protocol=SASL_SSL  
+... 
+
+Module maven => [io.strmizi](https://mvnrepository.com/artifact/io.strimzi/strimzi)  
+Pour l'authent précisément : [Kafka OAuth Client](https://mvnrepository.com/artifact/io.strimzi/kafka-oauth-client)
+
+[Exemple](https://medium.com/egen/how-to-configure-oauth2-authentication-for-apache-kafka-cluster-using-okta-8c60d4a85b43)
+
+## Conclusion
+
+Un broker kafka se lance quand meme facilement.  
+Difficile à scaler si on commence à etre beaucoup consommé.  
+PUB => Redhat offre le truc managé (pay to go). Starts with qui aide bien à la config.
