@@ -10,7 +10,9 @@
 
 [Notes](./kafka.md)
 
-## Du Chaos Engineering avec Litmus et Jenkins
+## Bien maîtriser les Dev Tools de vos navigateurs
+
+[Notes](./devtools.md)
 
 ## Type algébrique de données en Java 17
 
