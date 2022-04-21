@@ -11,3 +11,4 @@
  - [Model-Driven Design](./model_driven_design.md)
  - [Dois-je migrer en Reactive et comment ?](./reactive.md)
  - [Etre développeur: grandir et se développer](./etre_developpeur.md)
+ - [S'affranchir de la Pyramide des Tests](./pyramide_de_test.md)
