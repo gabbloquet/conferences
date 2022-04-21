@@ -9,5 +9,5 @@
  - [Bien maîtriser les Dev Tools de vos navigateurs](./devtools.md)
  - [Développer des applications observables pour la production](./observabilite.md)
  - [Model-Driven Design](./model_driven_design.md)
- - [Introduction à REMIX](./remix.md)
  - [Dois-je migrer en Reactive et comment ?](./reactive.md)
+ - [Etre développeur: grandir et se développer](./etre_developpeur.md)

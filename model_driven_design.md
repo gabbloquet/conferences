@@ -1,5 +1,7 @@
 # Model driven design
 
+Sympa, mais Niveau avancé, à revoir.
+
 Eric Evans. Domain driven Design. Tackling bounded context. Ubiquitous Language.  
  - Autonomie
  - Gagner en clarté, lisibilité

@@ -1,5 +1,7 @@
 # Devtools
 
+Court et sympa. Niveau débutant.
+
 ## Lighthouse
 
 Performance, SEO, TTI...

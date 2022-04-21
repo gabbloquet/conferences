@@ -1,5 +1,7 @@
 # Comprendre GraphQL
 
+3h, niveau débutant.
+
 BFFs fails to scale. On se sert du BFF pour qu'on est côté front qu'une seule API à appeler, qui va lui appeler tout le monde. En ajoutant des APIs et des APIs ça devient vite compliqué à maintenir.
 C'est là que GraphQL apparait.
 

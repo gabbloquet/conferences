@@ -1,5 +1,7 @@
 # Observabilité
 
+Bonne intro, niveau débutant.
+
 Pierre ZEMB de Clever Cloud.  
 
 ## Introduction

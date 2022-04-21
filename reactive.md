@@ -1,5 +1,7 @@
 # Programmation reactive
 
+Sympa ! Les warnings sont interessants, niveau medium.
+
 ## Intro
 
 **La programmation impérative**
@@ -126,11 +128,10 @@ Pour contourner le soucis de pagination spring a créer un fonction à l'API pou
 
 Actuator OK, pas de changement c'est facile.
 
-
 ## Alors ? On migre ?
 
-Scale => OUI  
-Vitesse => NON  
+On cherche à Scale => OUI  
+On veut gagner en Vitesse => NON  
 
 **Attention** 
  - Synthaxe spéciale (reactive)

@@ -1,5 +1,7 @@
 # Kafka
 
+3h, niveau medium.
+
 Producer > Topic > partition > offset
 
 ## basics
