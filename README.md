@@ -14,6 +14,8 @@
 
 [Notes](./devtools.md)
 
-## Type algébrique de données en Java 17
+## Développer des applications observables pour la production
+
+[Notes](./observabilite.md)
 
 ## Construisons ensemble une application Micro-Frontend multi-frameworks avec Webpack 5 Module Federation
