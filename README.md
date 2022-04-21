@@ -13,3 +13,4 @@
  - [Etre développeur: grandir et se développer](./etre_developpeur.md)
  - [S'affranchir de la Pyramide des Tests](./pyramide_de_test.md)
  - [⚡️ Vite ⚡️the Webpack killer](./vite.md)
+ - [REX: TDD avec TestContainers](./test_containers.md)
