@@ -1,21 +1,12 @@
-# Devoxx 2022
+# DevoxxFr 2022
 
-[CFP](https://cfp.devoxx.fr/2022/talks).
+[Le CFP](https://cfp.devoxx.fr/2022/talks)
 
-## Comprendre GraphQL
+## Mes notes
 
-[Notes](./graphql.md)
-
-## Kafka: carte des pièges à l’usage des développeurs et des ops
-
-[Notes](./kafka.md)
-
-## Bien maîtriser les Dev Tools de vos navigateurs
-
-[Notes](./devtools.md)
-
-## Développer des applications observables pour la production
-
-[Notes](./observabilite.md)
-
-## Construisons ensemble une application Micro-Frontend multi-frameworks avec Webpack 5 Module Federation
+ - [Comprendre GraphQL](./graphql.md)
+ - [Kafka: carte des pièges à l’usage des développeurs et des ops](./kafka.md)
+ - [Bien maîtriser les Dev Tools de vos navigateurs](./devtools.md)
+ - [Développer des applications observables pour la production](./observabilite.md)
+ - [Model-Driven Design](./model_driven_design.md)
+ - [Introduction à REMIX](./remix.md)
