@@ -10,3 +10,4 @@
  - [Développer des applications observables pour la production](./observabilite.md)
  - [Model-Driven Design](./model_driven_design.md)
  - [Introduction à REMIX](./remix.md)
+ - [Dois-je migrer en Reactive et comment ?](./reactive.md)
