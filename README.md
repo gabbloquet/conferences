@@ -16,3 +16,20 @@
  - [REX: TDD avec TestContainers](./test_containers.md)
  - [Decoupe mon monolith](./decoupe_monolith.md)
  - [Mob programming, la véritable approche du développement en équipe](./mob_programming.md)
+ - [Développement sans fron-Tiers (Remix)](./remix.md)
+
+A voir plus tard :  
+ - [React dans tous ses états](./react.md)
+ - [Rendez vos interfaces fiables en faisant aimer les tests à votre équipe !](./test_interfaces.md)
+ - Conf de doctolib et son monolith : _Doctolib a besoin d'une base de données plus puissante. Ok, mais laquelle?_
+ - _La fin des architectures en couches avec l’approche hexagonale_
+ - _En quête du Clean Code avec Sonar, 20 000 lieues sous un océan de code!_
+ - _Micro Frontends REX - Diviser pour mieux régner !_
+ - _Et si les micro-services n'avaient rien à voir avec la technique ?_
+ - _Eliminez la complexité de Kubernetes avec LENS !_
+ - _Le DOM Testing : Testez vos applications front plus facilement et efficacement !_
+ - _Architecturoplastie hexagonale d’un backend Node.js : Opération à code ouvert_ (Université de 3H)
+ - _Rendez l'agilité aux développeur(se)s !_
+ - _R2DBC = R2D2 + JDBC (enfin presque...)_
+ - _Oubliez Docker, appelez moi Compose_
+ - _Construisons ensemble une application Micro-Frontend multi-frameworks avec Webpack 5 Module Federation_
