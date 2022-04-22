@@ -14,3 +14,5 @@
  - [S'affranchir de la Pyramide des Tests](./pyramide_de_test.md)
  - [⚡️ Vite ⚡️the Webpack killer](./vite.md)
  - [REX: TDD avec TestContainers](./test_containers.md)
+ - [Decoupe mon monolith](./decoupe_monolith.md)
+ - [Mob_programming](./mob_programming.md)
