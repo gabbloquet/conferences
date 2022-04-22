@@ -1,6 +1,6 @@
 # DevoxxFr 2022
 
-[Le CFP](https://cfp.devoxx.fr/2022/talks)
+[Le CFP](https://cfp.devoxx.fr/2022/talks) - [Mercredi](https://cfp.devoxx.fr/2022/byday/wed) - [Jeudi](https://cfp.devoxx.fr/2022/byday/thu) - [Vendredi](https://cfp.devoxx.fr/2022/byday/fri)
 
 ## Mes notes
 
