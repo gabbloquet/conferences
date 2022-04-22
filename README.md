@@ -15,4 +15,4 @@
  - [⚡️ Vite ⚡️the Webpack killer](./vite.md)
  - [REX: TDD avec TestContainers](./test_containers.md)
  - [Decoupe mon monolith](./decoupe_monolith.md)
- - [Mob_programming](./mob_programming.md)
+ - [Mob programming, la véritable approche du développement en équipe](./mob_programming.md)

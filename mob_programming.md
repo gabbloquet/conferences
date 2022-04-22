@@ -87,3 +87,4 @@ Equipe injoignable
  - entretenir la sécurité psychologique
  - Montée en compétences / partage
  - Base de code standardisée
+
