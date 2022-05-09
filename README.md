@@ -17,6 +17,7 @@
  - [Decoupe mon monolith](./decoupe_monolith.md)
  - [Mob programming, la véritable approche du développement en équipe](./mob_programming.md)
  - [Développement sans fron-Tiers (Remix)](./remix.md)
+ - [Rendez l'agilité aux développeur(se)s !](./agilite_aux_devs.md)
 
 A voir plus tard :  
  - [React dans tous ses états](./react.md)
@@ -29,7 +30,6 @@ A voir plus tard :
  - _Eliminez la complexité de Kubernetes avec LENS !_
  - _Le DOM Testing : Testez vos applications front plus facilement et efficacement !_
  - _Architecturoplastie hexagonale d’un backend Node.js : Opération à code ouvert_ (Université de 3H)
- - _Rendez l'agilité aux développeur(se)s !_
  - _R2DBC = R2D2 + JDBC (enfin presque...)_
  - _Oubliez Docker, appelez moi Compose_
  - _Construisons ensemble une application Micro-Frontend multi-frameworks avec Webpack 5 Module Federation_
