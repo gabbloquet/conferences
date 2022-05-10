@@ -24,7 +24,6 @@
 
 A voir plus tard :
  - Conf de doctolib et son monolith : _Doctolib a besoin d'une base de données plus puissante. Ok, mais laquelle?_
- - _La fin des architectures en couches avec l’approche hexagonale_
  - _En quête du Clean Code avec Sonar, 20 000 lieues sous un océan de code!_
  - _Micro Frontends REX - Diviser pour mieux régner !_
  - _Et si les micro-services n'avaient rien à voir avec la technique ?_

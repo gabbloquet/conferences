@@ -23,6 +23,8 @@ L'archi hexagonale c'est faire des ports et adapters.
 On a notre domaine que l'on protège et on veut qu'il puisse communiquer avec plein de trucs, persistance, presentation, brokers...  
 On va faire des ports pour qu'ils puissent communiquer avec eux, adapters qui vont transformer notre domaine en objects techniques.
 
+Il y a deux types de ports, les ports driven et driving.
+
 <img width="715" alt="image" src="https://user-images.githubusercontent.com/25029077/167594566-5b4b16cf-2bd0-4d32-b5bc-6c9ab2668976.png">
 
 ### L'architecture Hexagonale
