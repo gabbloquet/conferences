@@ -20,6 +20,7 @@
  - [Rendez l'agilité aux développeur(se)s !](./agilite_aux_devs.md)
  - [React dans tous ses états](./react.md)
  - [Rendez vos interfaces fiables en faisant aimer les tests à votre équipe !](./test_interfaces.md)
+ - [La fin des architectures en couches avec l’approche hexagonale](./archi_couches_hexagonale.md)
 
 A voir plus tard :
  - Conf de doctolib et son monolith : _Doctolib a besoin d'une base de données plus puissante. Ok, mais laquelle?_
