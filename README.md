@@ -10,11 +10,11 @@
  - [Développer des applications observables pour la production](./observabilite.md)
  - [Model-Driven Design](./model_driven_design.md)
  - [Dois-je migrer en Reactive et comment ?](./reactive.md)
- - [Etre développeur: grandir et se développer](./etre_developpeur.md)
+ - [Être développeur: grandir et se développer](./etre_developpeur.md)
  - [S'affranchir de la Pyramide des Tests](./pyramide_de_test.md)
  - [⚡️ Vite ⚡️the Webpack killer](./vite.md)
  - [REX: TDD avec TestContainers](./test_containers.md)
- - [Decoupe mon monolith](./decoupe_monolith.md)
+ - [Découpe mon monolith](./decoupe_monolith.md)
  - [Mob programming, la véritable approche du développement en équipe](./mob_programming.md)
  - [Développement sans fron-Tiers (Remix)](./remix.md)
  - [Rendez l'agilité aux développeur(se)s !](./agilite_aux_devs.md)
@@ -28,8 +28,8 @@ A voir plus tard :
  - _En quête du Clean Code avec Sonar, 20 000 lieues sous un océan de code!_
  - _Micro Frontends REX - Diviser pour mieux régner !_
  - _Et si les micro-services n'avaient rien à voir avec la technique ?_
- - _Eliminez la complexité de Kubernetes avec LENS !_
+ - _Éliminez la complexité de Kubernetes avec LENS !_
  - _Le DOM Testing : Testez vos applications front plus facilement et efficacement !_
  - _R2DBC = R2D2 + JDBC (enfin presque...)_
- - _Oubliez Docker, appelez moi Compose_
+ - _Oubliez Docker, appelez-moi Compose_
  - _Construisons ensemble une application Micro-Frontend multi-frameworks avec Webpack 5 Module Federation_
