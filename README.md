@@ -21,6 +21,7 @@
  - [React dans tous ses états](./react.md)
  - [Rendez vos interfaces fiables en faisant aimer les tests à votre équipe !](./test_interfaces.md)
  - [La fin des architectures en couches avec l’approche hexagonale](./archi_couches_hexagonale.md)
+ - [Architecturoplastie hexagonale d’un backend Node.js : Opération à code ouvert](./architecturoplastie.md)
 
 A voir plus tard :
  - Conf de doctolib et son monolith : _Doctolib a besoin d'une base de données plus puissante. Ok, mais laquelle?_
@@ -29,7 +30,6 @@ A voir plus tard :
  - _Et si les micro-services n'avaient rien à voir avec la technique ?_
  - _Eliminez la complexité de Kubernetes avec LENS !_
  - _Le DOM Testing : Testez vos applications front plus facilement et efficacement !_
- - _Architecturoplastie hexagonale d’un backend Node.js : Opération à code ouvert_ (Université de 3H)
  - _R2DBC = R2D2 + JDBC (enfin presque...)_
  - _Oubliez Docker, appelez moi Compose_
  - _Construisons ensemble une application Micro-Frontend multi-frameworks avec Webpack 5 Module Federation_
