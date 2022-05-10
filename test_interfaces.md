@@ -1,11 +1,11 @@
 # Tests d'interface
 
-A voir ! Ci-dessous les notes de @Flo
+[Video](https://www.youtube.com/watch?v=eCfLa6Ex4QM)
 
 ## Intro 
 
-Tester ce que font les utilisateurs, et pas ce que fait votre code
-Avoir confiance en ses tests
+Tester ce que font les utilisateurs, et pas ce que fait votre code !  
+L'objectif, Avoir confiance en ses tests.
 
 ### Contexte   
 coverage 100% - toutes les méthodes exporté et testé unitairement - avec de gros composants

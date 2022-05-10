@@ -18,10 +18,10 @@
  - [Mob programming, la véritable approche du développement en équipe](./mob_programming.md)
  - [Développement sans fron-Tiers (Remix)](./remix.md)
  - [Rendez l'agilité aux développeur(se)s !](./agilite_aux_devs.md)
-
-A voir plus tard :  
  - [React dans tous ses états](./react.md)
  - [Rendez vos interfaces fiables en faisant aimer les tests à votre équipe !](./test_interfaces.md)
+
+A voir plus tard :
  - Conf de doctolib et son monolith : _Doctolib a besoin d'une base de données plus puissante. Ok, mais laquelle?_
  - _La fin des architectures en couches avec l’approche hexagonale_
  - _En quête du Clean Code avec Sonar, 20 000 lieues sous un océan de code!_
