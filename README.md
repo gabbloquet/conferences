@@ -22,12 +22,12 @@
  - [Rendez vos interfaces fiables en faisant aimer les tests à votre équipe !](./test_interfaces.md)
  - [La fin des architectures en couches avec l’approche hexagonale](./archi_couches_hexagonale.md)
  - [Architecturoplastie hexagonale d’un backend Node.js : Opération à code ouvert](./architecturoplastie.md)
+ - [Et si les micro-services n'avaient rien à voir avec la technique](./microservices.md)
 
 A voir plus tard :
  - Conf de doctolib et son monolith : _Doctolib a besoin d'une base de données plus puissante. Ok, mais laquelle?_
  - _En quête du Clean Code avec Sonar, 20 000 lieues sous un océan de code!_
  - _Micro Frontends REX - Diviser pour mieux régner !_
- - _Et si les micro-services n'avaient rien à voir avec la technique ?_
  - _Éliminez la complexité de Kubernetes avec LENS !_
  - _Le DOM Testing : Testez vos applications front plus facilement et efficacement !_
  - _R2DBC = R2D2 + JDBC (enfin presque...)_
