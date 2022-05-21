@@ -24,6 +24,7 @@
  - [Architecturoplastie hexagonale d’un backend Node.js : Opération à code ouvert](./architecturoplastie.md)
  - [Et si les micro-services n'avaient rien à voir avec la technique](./microservices.md)
  - [Développ(eur|euse) Senior avec 6 ans d’expérience, et après ?](./senior_dev.md)
+ - [10 ans de Devoxx FR et de Java ](./java.md)
 
 A voir plus tard :
  - Conf de doctolib et son monolith : _Doctolib a besoin d'une base de données plus puissante. Ok, mais laquelle?_
