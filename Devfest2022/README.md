@@ -6,3 +6,5 @@
 
  - [RGPD](./rgpd_pour_les_devs.md)
  - [Microservices et data](./microservices.md)
+ - [Speakers, Prof....](./speaker_prof.md)
+ - [Stratégies de déploiement kubernetes, Git](./dploy_strat.md)
