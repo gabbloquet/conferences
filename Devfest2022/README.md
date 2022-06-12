@@ -8,3 +8,4 @@
  - [Microservices et data](./microservices.md)
  - [Speakers, Prof....](./speaker_prof.md)
  - [Stratégies de déploiement kubernetes, Git](./dploy_strat.md)
+ - [Comment Loom va mettre fin à l'async](./loom.md)
