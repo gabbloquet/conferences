@@ -1,5 +1,7 @@
 # Strategies behind DDD
 
+[Slides](https://speakerdeck.com/lilobase/the-strategies-behind-ddd-adeodevsummit-2022)
+
 ## Sprint 0
 
 Sprint 0 : Java ? React ? Micro-services ?
@@ -22,7 +24,7 @@ Core (sub)domain (In-House development with your best team, high cost and qualit
 Par exemple on peut utiliser Shopify et stripe sur le site ecom, pour l'inventaire une autre solution du marché (ShipMonk).
 Par contre le catalogue serait en interne.
 
-NOUS DEVONS ALIGNER LES TEAMS ET L'ARCHITECTURE DES SOFTS.
+**NOUS DEVONS ALIGNER LES TEAMS ET L'ARCHITECTURE DES SOFTS.**
 
 ## Context 
 
@@ -33,7 +35,7 @@ Discussion with experts, learn about company strategy.
 On adapte l'architecture au besoin aue l'on veut adresser.
 Faire de l'event storming, du CQRS sur le publishing, CRUD sur le e-commerce.
 
-Attentiom CRUD a tendance à cacher le domain.
+Attention CRUD a tendance à cacher le domain.
 
 Bounded Context != Deployment.
 
