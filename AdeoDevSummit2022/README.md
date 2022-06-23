@@ -8,3 +8,4 @@
  - [The Strategies behind DDD](./strategies_behind_ddd.md)
  - [Confessions sur l'innersource](./innersource.md)
  - [Svelte CSR and SSR with NestJS](./lm_website.md)
+ - [Contract first](./contract_first.md)
